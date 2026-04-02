@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+  <meta charset="UTF-8">
+  <title>Anime Greek</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #0f172a;
+      color: white;
+    }
+    header {
+      background-color: #1e293b;
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+    .card {
+      background-color: #1e293b;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 10px;
+    }
+    .card-title {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .watch-btn {
+      display: block;
+      text-align: center;
+      background-color: #6366f1;
+      padding: 10px;
+      border-radius: 8px;
+      text-decoration: none;
+      color: white;
+    }
+    .watch-btn:hover {
+      background-color: #4f46e5;
+    }
+  </style>
+</head>
+<body>
+
+<header>Anime Greek 🇬🇷</header>
+
+<div class="container">
+  <div class="card">
+    <img src="https://via.placeholder.com/300x400" alt="Anime">
+    <div class="card-content">
+      <div class="card-title">Attack on Titan</div>
+      <a class="watch-btn" href="#">Δες τώρα</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x400" alt="Anime">
+    <div class="card-content">
+      <div class="card-title">Naruto</div>
+      <a class="watch-btn" href="#">Δες τώρα</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/300x400" alt="Anime">
+    <div class="card-content">
+      <div class="card-title">One Piece</div>
+      <a class="watch-btn" href="#">Δες τώρα</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x400" alt="Anime">
+    <div class="card-content">
+      <div class="card-title">Death note</div>
+      <a class="watch-btn" href="#">Δες τώρα</a>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/300x400" alt="Anime">
+    <div class="card-content">
+      <div class="card-title">My Hero Academia</div>
+      <a class="watch-btn" href="#">Δες τώρα</a>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
